@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+header:after{
+    content:'';
+    clear: both;
+    display: block;
+
+}
+header .description{
+    float: left;
+    width: 50%;
+}
+.avatar{
+    float: left;
+    margin-right: 20px;
+    max-width: 20%;
+}
+
+body > .wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .contact-info{
+    float:right;
+}
+
+.contact-info ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.skills .skills-container{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-container .skills-item{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #F00;
+    margin-right: 5px;
+    color:#fff;
+    border-radius: 4px;
+}
+.exp-item,
+.educ-item{
+    display: inline-block;
+    margin-right: 20px;
+    border:1px solid #ccc;
+    padding: 10px 20px;
+    max-width: 40%;
+}
+.work-as,
+.establishment{
+    margin-bottom: 5px;
+}
+.exp-item .company-name{
+    color: #666;
+    margin-top: 5px;
+}
